@@ -1,27 +1,27 @@
-❄️✨ Frozen Love Letter 💌
+❄️ Frozen Love Letter 💌
 
-A magical, Frozen-themed interactive webpage made especially for my sister! 💙
-Click through the story with the Next button ⏭️, enjoy floating snowy characters ❄️☃️🧣🦌, and let the music 🎶 make everything feel extra magical.
+A magical, interactive Frozen-themed webpage made especially for my sister!
+Click through the story with the Next button, enjoy floating snowy characters, and let the music set the mood. 🎶❄️
 
-🌨️ How It Works ✨
+🌨️ How It Works
 
-Click the Next button ⏭️ to move through the story/images.
+Click the Next button to move through the story/images.
 
-Floating frosty emojis ❄️💙☃️🧣🦌 appear randomly across the screen.
+Floating frosty characters (❄️, 💙, ☃️, 🧣, 🦌) appear randomly to give the page a whimsical, icy feel.
 
-Background music 🎵 (music.mp3) plays automatically to set the magical mood.
+Music plays in the background (music.mp3) to make the experience more magical.
 
-🎨 Features ❄️
+🎨 Features
 
-Frozen Characters: Anna, Elsa, Kristoff, Olaf, Sven 🧊 appear as part of the story.
+Frozen Characters: Anna, Elsa, Kristoff, Olaf, Sven images appear as part of the story.
 
-Floating Emojis: Adds a cute, whimsical winter vibe.
+Floating Emojis: Adds a cute, wintry vibe to the page.
 
-Interactive Story: Navigate through the love letter using the Next button ⏭️.
+Interactive Story: Navigate through the love letter using the Next button.
 
-Background Music: Makes the whole experience more magical 🎶.
+Background Music: A Frozen-themed tune plays while viewing.
 
-🛠️ How to Use 🧊
+🛠️ How to Use
 
 Download the Files:
 
@@ -29,16 +29,16 @@ index.html, style.css, script.js, music.mp3, and all character images (anna.png,
 
 Open in Browser:
 
-Open index.html 🌐
+Open index.html and enjoy the interactive Frozen love letter.
 
-Click Next ⏭️ to move through the story and watch the frosty magic unfold ❄️✨
+Click Next to move through the story.
 
-⚡ Code Highlights 💫
+⚡ Code Highlights
 
-script.js — Handles the Next button interactions and floating emojis.
+script.js handles the Next button interactions and floating emoji animations.
 
-style.css — Styles the page and floating characters ❄️.
+style.css styles the page and the floating characters.
 
-music.mp3 — Plays automatically for a Frozen mood 🎶.
+music.mp3 plays automatically when the page loads for a magical atmosphere.
 
-💖 Made with love for my sister — a frosty little surprise full of smiles, magic, and Frozen vibes! ❄️💙☃️
+💖 Made with love for my sister — a little frozen surprise full of smiles!
