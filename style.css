@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #a0d8f1, #ffffff);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.25);
+    width: 90%;
+    max-width: 650px;   /* 🔥 BIGGER CARD */
+    min-height: 350px;  /* 🔥 TALLER */
+}
+
+
+#message-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+}
+
+
+#message {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+
+#character {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 10px;
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #3da1d0;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1c6ea4;
+}
+
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;   /* 🔥 IMPORTANT */
+}
+
+.snowflake {
+    position: absolute;
+    top: -30px;
+    font-size: 18px;
+    opacity: 0.9;
+    animation: fallDown linear forwards;
+}
+
+@keyframes fallDown {
+    from { top: -30px; }
+    to { top: 110vh; }
+}
+
+
+#character {
+    width: 140px;          /* 🔥 bigger */
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.pop {
+    animation: popIn 0.5s ease-out;
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.4);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Card always on top */
+.letter-container {
+    position: relative;
+    z-index: 10;
+}
+
